@@ -34,5 +34,8 @@ class Banner
 		return $banner;
 	}
 
+	public function test(){
+		return 'test';
+	}
 
 }
