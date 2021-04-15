@@ -38,4 +38,8 @@ class Banner
 		return 'test';
 	}
 
+	public function test2(){
+		return 'test2';
+	}
+
 }
