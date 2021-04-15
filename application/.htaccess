@@ -1,0 +1,11 @@
+deny from all
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+  RewriteEngine On
+  #分布式配置文件 隐藏入口文件
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+
+</IfModule>
