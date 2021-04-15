@@ -35,11 +35,11 @@ class Banner
 	}
 
 	public function test(){
-		return 'test';
+		return 'hello test';
 	}
 
 	public function test2(){
-		return 'test2';
+		return 'hell test2';
 	}
 
 }
